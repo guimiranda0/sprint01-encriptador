@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codificador - Challenger</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <header>
+            <img src="./alura-logo.jfif" alt="Logo Alura">
+        </header>
+
+        <main class="box">
+            <div class="caixa-central">
+                <section class="parte-um">
+                    <p class="info">&#128712; Apenas letras minúsculas e sem acento</p>
+                    <textarea class="input-texto" cols="45" rows="15" placeholder="Digite seu texto..."></textarea>
+                    <textarea class="mensagem" id="mensagem" cols="25" rows="20"></textarea>
+                </section>
+                <section>
+                    <div class="botoes">
+                        <button class="encriptar" onclick="btnEncriptar()">
+                            Criptografar
+                        </button>
+                        <button class="desencriptar" onclick="btnDesencriptar()">
+                            Descriptografar
+                        </button>
+                        <button class="copiar" onclick="btnCopiar()">
+                            Copiar
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <footer class="rodape">
+                <p>&copy; Guilherme Miranda - 2022</p>
+            </footer>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
